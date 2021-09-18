@@ -1,0 +1,76 @@
+*{
+  justify-content: center;
+  margin: 100;
+  padding: 100;
+  border: 100;
+ background-color:#e48b06;
+  font-family: 'Lato', sans-serif;
+}
+
+.parent-container{
+ 
+  margin: 100mm;
+  background: #e2510d;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #f87a12, #ee7b0f, #d3841c);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #eb9d2a, #e9300f, #ffa805); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  height: 100vh;
+
+}
+
+.top-container{
+  padding-top: 15px;
+  max-width: 600px;
+  background: #e48b06;
+  height: 100vh;
+}
+
+/*TODOFORM STYLES START*/
+
+.app-title{
+  font-family: 'Lato', sans-serif;
+  font-size: 36px;
+  background: #e48b06;
+  border: 1px solid ;
+  margin: auto;
+  background: #e48b06;
+
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 2px rgba(0,0,0,0.23);
+  max-width: 400px;
+}
+
+.todo-form{
+  max-width: 400px;
+  margin: 15px auto 10px auto;
+}
+/*TODOFORM STYLES END*/
+
+/*TODOLIST STYLE START*/
+.todo-list {
+  margin: auto;
+  background: #e48b06;
+  
+  border-radius: 4px;
+  padding: 5px;
+  max-width: 400px;
+}
+
+.todo {
+  background: #e48b06;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+  padding: 3px 10px;
+  font-size: 16px;
+margin: auto;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  
+}
+
+.todo:hover{
+  background: #e48b06;
+  margin: auto;
+}
+
+.todo-text{
+  margin:auto;
+}
